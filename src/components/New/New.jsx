@@ -25,11 +25,11 @@ const New = () => {
 
                             I possess hands-on experience from interning at two startups, leading college projects, and co-founding a startup, showcasing a well-rounded background in real-world projects.
                         </p >
-                        <a href='https://www.punekarnews.in/pune-students-create-ai-powered-whatsapp-chatbot-whatsgpt-to-offer-instant-information-and-assistance-for-everyday-tasks/#:~:text=Pune%20Students%20Create%20AI%2DPowered,And%20Assistance%20For%20Everyday%20Tasks' target='blank'>
+                        <a href='https://github.com/krishmk1009/RT_Camp_Portfolio' target='blank'>
 
                      
                         <button class="btn1">
-                            Read Article                  </button>   </a>
+                            Portfolio Repo               </button>   </a>
 
                     </Grid>
                     <Grid item xs={12} md={5}>

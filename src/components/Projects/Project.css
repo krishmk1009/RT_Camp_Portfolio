@@ -1,0 +1,53 @@
+.project-heading {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.project-container{
+    margin-top: 30px;
+}
+
+
+.project-subheading {
+    font-size: 22px;
+}
+
+.heading-3-tag {
+    font-size: 28px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    ;
+
+}
+
+.heading-3-tag:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.project-desc {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.btn {
+    background-color: #333333;
+    padding: 18px 32px;
+    color: #f5f7fa;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .project-img {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .project-container {
+        margin: 0 0;
+    }
+
+}

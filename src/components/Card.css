@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;500&display=swap');
+
+.card-section {
+
+
+    padding: 50px;
+
+
+
+}
+
+.main-container {
+    display: flex;
+    margin-top: 30px;
+
+
+
+}
+
+.div-section-1 {
+    width: 55%;
+    ;
+    padding-right: 50px;
+}
+
+.div-section {
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #f5f7fa;
+    width: 45%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+
+.card-uppper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0px;
+}
+
+.card-content {
+    padding: 15px 0;
+}
+
+.card-content p {
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.speaker-name {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #111111b0;
+    font-weight: 500;
+}
+
+.speaker-designation {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #1111118a;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.typo-card {
+    font-family: 'Inter', sans-serif;
+    color: #2565c6;
+
+    text-decoration: underline;
+}
+
+
+@media (max-width:768px) {
+
+    .main-container{
+        display: block;
+    }
+
+    .div-section-1{
+        /* padding: 10px; */
+        width: 100%;
+    }
+
+    .card-section {
+        padding: 20px;
+    }
+
+    .div-section {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    .card-content p {
+        font-size: 18px;
+    }
+}
+
+.new-subheadings{
+    font-size: 18px;
+    margin: 35px 0px;
+    line-height: 32px;
+}
+
+.new-inner{
+    display: flex   ;
+}
+
+.special-tag{
+    color: #2565c6;
+}
+
+.div-section-1-img{
+    height: 95px;
+    /* margin-top: 10px; */
+}

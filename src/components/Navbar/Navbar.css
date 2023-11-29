@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300;500&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+main{
+    background-color: #f5f7fa
+    ;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    text-align: left;
+    margin-left: -40px;
+    /* margin-top: 35px; */
+    
+}
+
+
+
+
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: left;
+}
+
+
+.nav-items ul li{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    text-align: left;
+    color: #111111;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .nav-items{
+        display: none;
+    }
+    
+}
+@media only screen and (min-width: 769px) {
+    .nav-mobile {
+      display: none;
+    }
+  }

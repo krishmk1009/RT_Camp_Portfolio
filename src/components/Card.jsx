@@ -31,7 +31,7 @@ const Card = () => {
             </div>
             <div className='div-section'>
                 <div className='card-uppper' >
-                    <img src='https://www.mishainfotech.com/images/fullstacklogo1-1.png'  width={"150px"}/>
+                    <img  src='https://www.mishainfotech.com/images/fullstacklogo1-1.png'  width={"150px"}/>
                     <Typography className='typo-card' sx={{ fontSize: "18px", fontWeight: "500", marginTop:"10px" }}>
                         View Case Studies &#8594;
                     </Typography>

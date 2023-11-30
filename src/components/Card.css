@@ -99,6 +99,13 @@
     .card-content p {
         font-size: 18px;
     }
+
+    .div-section-1-img{
+        width: 100%;
+    }
+    .typo-card{
+        display: none;
+    }
 }
 
 .new-subheadings{
